@@ -1,12 +1,16 @@
-import React from 'react'
+import React from "react";
 
-const TicTacElement = (props) => {
-    const thisPosition = props.position
-    return(
-    <td className="border square align-middle text-uppercase"
-    onClick={()=> props.handleChangeTable(thisPosition)}>{props.elem}</td>
-    )
-}
-
-
-export default TicTacElement
+/**
+ * @param {function} handleChangeTable
+ * @param elem
+ * @param position
+ * @return {JSX.Element}
+ */
+export default ({ handleChangeTable, elem, position }) => (
+  <td
+    className="border square align-middle text-uppercase"
+    onClick={() => handleChangeTable(position)}
+  >
+    {elem}
+  </td>
+);
