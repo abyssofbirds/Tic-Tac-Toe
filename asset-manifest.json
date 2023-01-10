@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "https://abyssofbirds.github.io/Tic-Tac-Toe/static/css/main.0ae8599c.chunk.css",
-    "main.js": "https://abyssofbirds.github.io/Tic-Tac-Toe/static/js/main.e85e97a1.chunk.js",
-    "main.js.map": "https://abyssofbirds.github.io/Tic-Tac-Toe/static/js/main.e85e97a1.chunk.js.map",
-    "runtime-main.js": "https://abyssofbirds.github.io/Tic-Tac-Toe/static/js/runtime-main.f05bcb72.js",
-    "runtime-main.js.map": "https://abyssofbirds.github.io/Tic-Tac-Toe/static/js/runtime-main.f05bcb72.js.map",
-    "static/js/2.0f19d5c6.chunk.js": "https://abyssofbirds.github.io/Tic-Tac-Toe/static/js/2.0f19d5c6.chunk.js",
-    "static/js/2.0f19d5c6.chunk.js.map": "https://abyssofbirds.github.io/Tic-Tac-Toe/static/js/2.0f19d5c6.chunk.js.map",
-    "index.html": "https://abyssofbirds.github.io/Tic-Tac-Toe/index.html",
-    "static/css/main.0ae8599c.chunk.css.map": "https://abyssofbirds.github.io/Tic-Tac-Toe/static/css/main.0ae8599c.chunk.css.map",
-    "static/js/2.0f19d5c6.chunk.js.LICENSE.txt": "https://abyssofbirds.github.io/Tic-Tac-Toe/static/js/2.0f19d5c6.chunk.js.LICENSE.txt"
+    "main.css": "/Tic-Tac-Toe/static/css/main.0ae8599c.chunk.css",
+    "main.js": "/Tic-Tac-Toe/static/js/main.e85e97a1.chunk.js",
+    "main.js.map": "/Tic-Tac-Toe/static/js/main.e85e97a1.chunk.js.map",
+    "runtime-main.js": "/Tic-Tac-Toe/static/js/runtime-main.db12d48c.js",
+    "runtime-main.js.map": "/Tic-Tac-Toe/static/js/runtime-main.db12d48c.js.map",
+    "static/js/2.0f19d5c6.chunk.js": "/Tic-Tac-Toe/static/js/2.0f19d5c6.chunk.js",
+    "static/js/2.0f19d5c6.chunk.js.map": "/Tic-Tac-Toe/static/js/2.0f19d5c6.chunk.js.map",
+    "index.html": "/Tic-Tac-Toe/index.html",
+    "static/css/main.0ae8599c.chunk.css.map": "/Tic-Tac-Toe/static/css/main.0ae8599c.chunk.css.map",
+    "static/js/2.0f19d5c6.chunk.js.LICENSE.txt": "/Tic-Tac-Toe/static/js/2.0f19d5c6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f05bcb72.js",
+    "static/js/runtime-main.db12d48c.js",
     "static/js/2.0f19d5c6.chunk.js",
     "static/css/main.0ae8599c.chunk.css",
     "static/js/main.e85e97a1.chunk.js"
