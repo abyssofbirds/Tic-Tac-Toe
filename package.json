@@ -1,6 +1,7 @@
 {
   "name": "tic-tac-toe",
   "version": "0.1.0",
+  "homepage": "https://abyssofbirds.github.io/Tic-Tac-Toe/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -15,13 +16,15 @@
     "yarn": "^1.22.10"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "prettier": "^2.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "pages": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
