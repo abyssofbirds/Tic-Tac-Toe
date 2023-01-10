@@ -15,7 +15,7 @@ class PopupService {
       backdrop: `
               rgba(0,0,123,0.4)
               url("https://c.tenor.com/5P2BiFhQVEsAAAAi/don%27t-know-confusing.gif")
-              right bottom -70%
+              right bottom
               no-repeat
             `,
       ...options,
