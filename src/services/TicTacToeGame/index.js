@@ -12,7 +12,7 @@ class TicTacToeGame {
    */
   createNewGame(squareSize = 3) {
     this.squareSize = squareSize;
-    this.state = new Array(squareSize ** squareSize).fill("");
+    this.state = new Array(squareSize * squareSize).fill("");
     return this.state;
   }
 
@@ -31,6 +31,7 @@ class TicTacToeGame {
 
   /** @return string[] */
   getState() {
+    console.log(this.state, "THIS STATE");
     return this.state.concat();
   }
 
@@ -60,6 +61,7 @@ class TicTacToeGame {
   /** @return string[] */
   __splitStateByHorizontalLines() {
     let state = this.getState();
+    console.log({ state });
     const lines = [];
     for (let i = 0; i < this.state.length; i += this.squareSize) {
       lines.push(state.slice(i, i + this.squareSize));
@@ -71,7 +73,7 @@ class TicTacToeGame {
   __splitStateByVerticalLines() {
     let state = this.getState();
 
-    console.log("state", state);
+    // console.log("state", state);
     const columns = [];
 
     for (let columnIndex = 0; columnIndex < this.squareSize; columnIndex++) {
